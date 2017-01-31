@@ -1,0 +1,4 @@
+1. beat, beta, bate, baet, btae, btea, ebat, ebta, etba, etab, eatb, eabt, aetb, aebt, atbe, ateb, abet, abte, teab, teba, tbae, tbea, tabe, taeb
+2. This can be done by adding an or statement on line 26 (on the original) in the format: if(word.length() == 0 || word.length() ==1)
+3. The program will have to iterate n! times (n being the size) and this is ridiculously huge for longer texts and this burns the memory quickly and if a permutation that has been encountered before is encountered in an iterative solution, it will throw the method off.  To add to this, it is easier for the computer to return the last value by doing recursion than it is to calculate each individual permutation using iteration (because recursion has the last letter returned while for the iteration, each individual character will eventually have to be returned and it can’t temporarily ignore the first letter.)
+
